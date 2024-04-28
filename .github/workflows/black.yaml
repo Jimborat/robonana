@@ -1,0 +1,19 @@
+name: Lint PR
+
+on: [pull_request_target]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+      - uses: psf/black@stable
+        with:
+          options: "--preview"
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Apply Black formatting changes

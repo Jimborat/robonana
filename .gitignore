@@ -1,0 +1,11 @@
+*.db
+__pycache__
+.pytest_cache
+.coverage
+.DS_Store
+*.ini
+.vscode/
+
+.env
+secrets.yaml
+config.yaml

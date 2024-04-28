@@ -1,0 +1,52 @@
+[Discord]
+Token =
+StreamChannel = 1037040541017309225
+WelcomeChannel = 1026538706443718656
+PendingRewardChannel =
+PointsAuditChannel =
+BotRoleID = 1037842934629924964
+GiftedTier1RoleID = 1038174011034710128
+GiftedTier2RoleID = 1046887679465373836
+GiftedTier3RoleID = 1045466382470484040
+ModRoleID = 932028793093247006
+Tier1RoleID = 1036801694564102174
+Tier2RoleID = 1036807522457231384
+Tier3RoleID = 1036807951484203099
+6MonthTier3RoleID = 1087797719919235123
+TwitchTier3RoleID = 935319103302926409
+NAOpenInhouseChannel = 1118272266988441630
+EUOpenInhouseChannel = 1074056805275140308
+GuildID = 82969926125490176
+VODApprovedRoleID = 1056991497821626458
+VODSubmissionChannelID = 1055308028603269140
+GoodMorningRewardRequirement = 5
+GoodMorningRewardRoleID =
+GoodMorningRewardRedemptionChannelID =
+CrowdMuteEmojiID = 1037105216371314758
+CoolEmojiID = 1076744568818647103
+UncoolEmojiID = 1087887812923232266
+CrowdMuteThreshold = 15
+CrowdMuteDuration = 1
+
+[TempRoles]
+ExpirationCheckCadenceMinutes = 5
+
+[Predictions]
+PredictionChannelID =
+GuildID =
+
+[VODApproval]
+ApprovedTag =
+RejectedTag =
+ApprovedRole =
+RejectedRole =
+HoursPerReview = 8
+
+[Server]
+AuthToken =
+
+[MySQL]
+Username =
+Password =
+Host =
+Name =

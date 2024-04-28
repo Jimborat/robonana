@@ -81,10 +81,10 @@ class RaffleBot(Client):
     async def on_ready(self):
         logging.info(f"Logged in as {self.user} (ID: {self.user.id})")
         sync_commands.UPTIME_START_TIME = time.time()
-        #guild = discord.Object(id=GUILD_ID)
-        #tree.clear_commands(guild=guild)
-        #tree.copy_global_to(guild=guild)
-        #await tree.sync(guild=guild)
+        # guild = discord.Object(id=GUILD_ID)
+        # tree.clear_commands(guild=guild)
+        # tree.copy_global_to(guild=guild)
+        # await tree.sync(guild=guild)
         SubController(self).send_count.start()
         # Disable opening / closing inhouse queues at Ethan's request
         # Leaving here for posterity
